@@ -1,4 +1,40 @@
-DB Reverse Engineering
+## Starting with Spring ROO
+==================
+
+This is a sample code to start a project using Spring ROO.  Following are the requirements and step to setup your development environment.
+
+## Requirements
+
+    Spring STS [http://spring.io/tools/sts/all][] the latest version is 3.5.0
+    Spring ROO - [http://projects.spring.io/spring-roo][] The current stable release is 1.2.5
+    
+## Steps to setup your IDE
+    1. Unpack and install STS to your favorite location, just like installing a normal eclipse IDE.
+    2. Again, unpack Spring Roo to your favorite location. e.g. 'C:\Windows\Users\<Your Account>\Documents', '/Users/<Your Account>/Document' for Mac OSX
+    3. Add Roo to your classpath. On windows (booooo), 'Start->Control Panel->System->Advanced Tab->Environment Variables->System Variables->Path'. On MAC OSX, '/Users/<Your Account>/.profile or .bash_profile'
+    4. Once done, open your terminal type roo then press enter.  You should see the Roo's welcome message and version like the one below.
+
+           ____  ____  ____  
+        
+           / __ \/ __ \/ __ \ 
+        
+          / /_/ / / / / / / / 
+        
+         / _, _/ /_/ / /_/ /  
+        
+        /_/ |_|\____/\____/    1.2.5.RELEASE [rev 8341dc2]
+        
+        Welcome to Spring Roo. For assistance press TAB or type "hint" then hit ENTER.
+        
+        roo> 
+
+    5. Open STS IDE, then go to 'HELP -> Eclipse Market' and look for the [Spring Roo plugin][] for STS, take note of the version of your STS.
+    6. Create new Spring Roo Project. Right click on 'Project Explorer -> New -> Others -> Spring Roo Project'.  Usually, it will automatically open Roo Shell for you, in case not just right click on your project then click 'Spring Tools -> Roo Shell'.
+    7. There are 3 ways to create Roo project, first is the one I've mentioned on step 6 and second is via Roo Shell.  Just click the Create New Roo Project button at the upper right corner of the shell. There, you can specify the installation path of your Roo instance.  The third way is using your terminal, that's the purpose of adding Roo to your classpath and this step doesn't use IDE.  Whichever way you choose, it's your personal taste.
+
+
+
+##DB Reverse Engineering
 ==================
 
 This a quick tutorial on how create your application using one of the very impressive feature of Spring ROO, the DBRE.  In fact, this feature is not new for most of the developers.  JPA offers this but only allows you to instrospect the db schema and produce Java application once while Roo's version gives you the advantage of repeatedly doing it (re-instrospect and update the application).  Here, we are gonna create a sample project to demonstrate how DBRE works.
