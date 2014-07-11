@@ -1,14 +1,15 @@
-## Starting with Spring ROO
+Starting with Spring ROO
 ==================
 
 This is a sample code to start a project using Spring ROO.  Following are the requirements and step to setup your development environment.
 
-## Requirements
+Requirements
 
     Spring STS [http://spring.io/tools/sts/all][] the latest version is 3.5.0
     Spring ROO - [http://projects.spring.io/spring-roo][] The current stable release is 1.2.5
     
-## Steps to setup your IDE
+Steps to setup your IDE
+
     1. Unpack and install STS to your favorite location, just like installing a normal eclipse IDE.
     2. Again, unpack Spring Roo to your favorite location. e.g. 'C:\Windows\Users\<Your Account>\Documents', '/Users/<Your Account>/Document' for Mac OSX
     3. Add Roo to your classpath. On windows (booooo), 'Start->Control Panel->System->Advanced Tab->Environment Variables->System Variables->Path'. On MAC OSX, '/Users/<Your Account>/.profile or .bash_profile'
@@ -34,7 +35,7 @@ This is a sample code to start a project using Spring ROO.  Following are the re
 
 
 
-##DB Reverse Engineering
+DB Reverse Engineering
 ==================
 
 This a quick tutorial on how create your application using one of the very impressive feature of Spring ROO, the DBRE.  In fact, this feature is not new for most of the developers.  JPA offers this but only allows you to instrospect the db schema and produce Java application once while Roo's version gives you the advantage of repeatedly doing it (re-instrospect and update the application).  Here, we are gonna create a sample project to demonstrate how DBRE works.
