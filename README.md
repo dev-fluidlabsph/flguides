@@ -1,7 +1,7 @@
 Starting with Spring ROO
 ==================
 
-This is a step-by-step procedure to start a project using Spring ROO.  Following are the requirements and step to setup your development environment.
+This is a step-by-step guide to start a project using Spring ROO.  Following are the requirements and step to setup your development environment.
 
 Requirements
 
