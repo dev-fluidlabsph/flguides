@@ -1,0 +1,10 @@
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-04-21 22:23:33
+hint
+project --topLevelPackage com.sample
+jpa setup --database POSTGRES --provider HIBERNATE --databaseName sampledb 
+jpa setup --database POSTGRES --provider HIBERNATE --databaseName sampledb --userName postgres --password postgres 
+database introspect --schema public 
+database reverse engineer --schema public --package ~.domain --activeRecord --repository --service
+database reverse engineer --schema public --package ~.domain --activeRecord
+database reverse engineer --schema public --repository  --package ~.repository
+database reverse engineer --schema public --service  --package ~.service
