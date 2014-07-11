@@ -1,7 +1,7 @@
 Starting with Spring ROO
 ==================
 
-This is a step-by-step guide to start a project using Spring ROO.  Following are the requirements and step to setup your development environment.
+This is a step-by-step guide to start a project using Spring ROO.  Following are the requirements and steps to setup your development environment.
 
 Requirements
 
@@ -31,14 +31,14 @@ Steps to setup your IDE
 
     5. Open STS IDE, then go to 'HELP -> Eclipse Market' and look for the [Spring Roo plugin][] for STS, take note of the version of your STS.
     6. Create new Spring Roo Project. Right click on 'Project Explorer -> New -> Others -> Spring Roo Project'.  Usually, it will automatically open Roo Shell for you, in case not just right click on your project then click 'Spring Tools -> Roo Shell'.
-    7. There are 3 ways to create Roo project, first is the one I've mentioned on step 6 and second is via Roo Shell.  Just click the Create New Roo Project button at the upper right corner of the shell. There, you can specify the installation path of your Roo instance.  The third way is using your terminal, that's the purpose of adding Roo to your classpath and this step doesn't use IDE.  Whichever way you choose, it's your personal taste.
+    7. There are 3 ways to create Roo project, first is the one I've mentioned on step 6 and second is via Roo Shell.  Just click the Create New Roo Project button at the upper right corner of the shell. There, you can specify the installation path of your Roo instance.  The third way is using your terminal, that's the purpose of adding Roo to your classpath and this step doesn't use IDE.  Whichever way you choose, it's all about personal taste.
 
 
 
 DB Reverse Engineering
 ==================
 
-A quick tutorial on how create your application using one of the very impressive feature of Spring ROO, the DBRE.  In fact, this feature is not new for most of the developers.  JPA offers this but only allows you to instrospect the db schema and produce Java application once while Roo's version gives you the advantage of repeatedly doing it (re-instrospect and update the application).  Here, we are gonna create a sample project to demonstrate how DBRE works.
+A quick tutorial on how to create your application using one of the very impressive feature of Spring ROO, the DBRE.  In fact, this feature is not new for most of the developers.  JPA offers this but only allows you to instrospect the db schema and produce Java application once while Roo's version gives you the advantage of repeatedly doing it (re-instrospect and update the application).  Here, we are gonna create a sample project to demonstrate how DBRE works.
 
 Requirements:
 
